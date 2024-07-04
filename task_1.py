@@ -8,7 +8,7 @@ def get_days_from_today(date_from_user):
         date = datetime.strptime(date_from_user, "%Y-%m-%d")
         current_date = datetime.now()
         result = current_date - date
-        print(result.days)
+        return result.days
     except ValueError:
         print('The entry date isn\'t correct!')
 
