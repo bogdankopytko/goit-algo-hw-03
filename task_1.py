@@ -13,4 +13,4 @@ def get_days_from_today(date_from_user):
         print('The entry date isn\'t correct!')
 
 
-get_days_from_today(user_date)
+print(f'Кількість днів від {user_date} = {get_days_from_today(user_date)}')
